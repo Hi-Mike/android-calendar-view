@@ -1,19 +1,20 @@
-# Git Ignore File indicating untracked files
-
-# Gradle Files
-.gradle/
-build/
-/*/build/
-
-# Local Configuration File
-local.properties
-
-# .iml
 *.iml
+.gradle
+local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.idea
 
-# .idea
-/*/.idea/
-.idea/
+# built application files
+*.apk
 
+# files for the dex VM
+*.dex
 
-/*/class/
+# Java class files
+*.class
+
+/config
+/output
